@@ -1,0 +1,19 @@
+{
+  "name": "video-darslik-bot",
+  "version": "1.0.0",
+  "description": "Video darsliklarni sotish uchun Telegram bot",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  },
+  "dependencies": {
+    "@grammyjs/auto-retry": "^2.0.2",
+    "grammy": "^1.46.0"
+  }
+}
